@@ -8,12 +8,26 @@ class SettingsScreen extends StatelessWidget {
   final AppThemeController controller;
 
   static const accents = <int>[
-    0xFF20A875,
-    0xFF4C8DFF,
-    0xFF9B72CF,
-    0xFFE08A36,
-    0xFFE05D75,
-    0xFF19A6A6,
+    // Original colors
+    0xFF20A875, // Emerald Green
+    0xFF4C8DFF, // Royal Blue
+    0xFF9B72CF, // Lavender Purple
+    0xFFE08A36, // Burnt Orange
+    0xFFE05D75, // Rose Pink
+    0xFF19A6A6, // Teal
+    // Additional colors
+    0xFF00B8D9, // Cyan
+    0xFF3F51B5, // Indigo
+    0xFF673AB7, // Deep Purple
+    0xFF8E44AD, // Amethyst
+    0xFFEC407A, // Hot Pink
+    0xFFE53935, // Cherry Red
+    0xFFFF7043, // Coral
+    0xFFFFA000, // Amber
+    0xFF8D6E63, // Brown
+    0xFF78909C, // Blue Grey
+    0xFF7CB342, // Lime Green
+    0xFF26A69A, // Sea Green
   ];
 
   @override

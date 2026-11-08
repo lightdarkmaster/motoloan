@@ -396,7 +396,10 @@ class _HomeScreenState extends State<HomeScreen> {
       padding: const EdgeInsets.all(22),
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: [accentColor.withOpacity(1), accentColor.withOpacity(1)],
+          colors: [
+            accentColor.withValues(alpha: 1),
+            accentColor.withValues(alpha: 1),
+          ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
